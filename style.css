@@ -21,14 +21,50 @@ p{
 .half-width img{
     width: 100%;
 }
+.images{
+    display:inline;
+    margin:0px;
+    padding:0px;
+}
+/* #content{
+    display:block;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    top:90px;
+    height:auto;
+    max-width:auto;
+} */
+.content{
+    margin: 0px 10%; 
+    position: relative ;
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    float: left;
+    width: 30%; 
+}
+.images img{
+    width: 100%; 
+}
 .top-banner{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
 }
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
 section{
     height: 500px;
-    padding-bottom: 150px;
-}
+    padding-bottom: 700px;
+   
+} 
+.latest-work-area{
+    background-image: url("images/latest-work-bg.png"); 
+    background-repeat:no-repeat;  
+} 
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -39,4 +75,43 @@ section{
 }
 .orange-highlight{
     color:hotpink;
+}
+#latest-work h2{
+    padding: 100px 0px; 
+    text-align: center; 
+}
+#footer-text-area{
+    margin-top: 60px; 
+}
+#footer-text-area h2{
+    margin-bottom: 60px; 
+}
+.footer-area{
+    background-image: url("images/footer-bg.png"); 
+    background-repeat:no-repeat;  
+    text-align: center;
+}
+#footer-text-area h5{
+    font-size: 30px;
+    font-weight: 400;
+    width: 600px; 
+    margin: 10px auto;
+}
+#footer-link{
+    width: 700px; 
+    margin: 100px auto; 
+    background-image: linear-gradient(180deg,#ec5094,#ed4b73); 
+    border-radius: 10px;
+    padding: 15px 0px; 
+}
+#footer-link a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    font-style: oblique;
+}
+#footer-link p,a h3{
+    color: #ffffff; 
+}
+#footer-copyright{
+    padding: 20px 0px; 
 }
